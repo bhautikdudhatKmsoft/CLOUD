@@ -1,0 +1,15 @@
+- This commnd run in crome for get authorization code 
+- for create authorization code = https://www.dropbox.com/oauth2/authorize?client_id=qaa9mt0us0gm44x&response_type=code&token_access_type=offline
+
+- This authorization code valid for 4 minit 
+- authorization code kmsoft = PVgq_zNaT8YAAAAAAAAAHE4nhw00mE8BsMkjTPpDcN8
+
+
+- this command run in terminal for access and reference token 
+
+- curl -X POST https://api.dropbox.com/oauth2/token \
+  -d grant_type=authorization_code \
+  -d code=PVgq_zNaT8YAAAAAAAAAHE4nhw00mE8BsMkjTPpDcN8 \
+  -d client_id=qaa9mt0us0gm44x \
+  -d client_secret=8uo1n7amevai7ni
+                                    
